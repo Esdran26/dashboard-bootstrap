@@ -36,8 +36,8 @@
             </div>
         </div>
 
-        <div class="col-md-7 col-12 min-vh-100 second-section">
-            <div class="input-group mt-3 ml-3 mb-3">
+        <div class="col-md-7 col-12 pl-1 pr-1 min-vh-100 second-section">
+            <div class="input-group mt-3 ml-3 mb-3 mr-3 col-lg-7 col-7">
                 <div class="input-group-prepend position-relative">
                   <i class="fas fa-search fa-lg-1x position-absolute" id="button-addon1"></i>
                 </div>
@@ -45,7 +45,7 @@
                 box-shadow: 0px 8px 15px #f1f1f1; border-radius: .7rem; outline: none; border: 1px solid #f1f1f1;" class="form-control pl-5" placeholder="Buscar por libros, personas ó articulos" aria-label="Example text with button addon" aria-describedby="button-addon1">
             </div>
             <div class="d-flex flex-md-row flex-column justify-content-around mt-3 ml-3 mr-3 card-photo">
-              <div class="d-flex flex-column align-content-around col-lg-7 col-md-7 col-12 p-4 ">
+              <div class="d-flex flex-column justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
                 <h4>Hola, Andrés! Tienes ideas sobre un nuevo libro?</h4>
                 <p class="mt-2 mb-2">Vuelve tus libros tendencia mundial! <br>
                   Quieres empezar a escribir una vez más?</p>
@@ -54,9 +54,9 @@
               <img class="img-fluid col-lg-5 col-md-5 col-12" src="/img/photo.svg" alt="Book">
             </div>
 
-            <div class="d-flex flex-row ml-3 mr-3">
-              <div class="d-flex flex-column justify-content-around mt-3 col-8 reader">
-                <div class="d-flex flex-row flex-wrap justify-content-between mr-3">
+            <div class="d-flex flex-lg-row flex-column ml-3 mr-3">
+              <div class="d-flex flex-column justify-content-around mt-3 col-lg-8 col-12 reader">
+                <div class="d-flex flex-row flex-wrap justify-content-between mr-lg-4 mr-0">
                     <div class="d-flex flex-column p-3 stats mb-3">
                       <p class="text-muted mb-2">Librería</p>
                       <h4 class="text-dark">124</h4>
@@ -74,14 +74,14 @@
                       <h4 class="text-dark">163 k</h4>
                     </div>
                 </div>
-                <div class="d-flex flex-column author mr-3">
+                <div class="d-flex flex-column author mr-lg-4 mr-0">
                   <div class="d-flex flex-row pt-3 pb-3 justify-content-between">
                     <h4 class="text-dark align-middle pl-3">Autores</h4>
                     <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" href="#">Ver Todo</a>
                   </div>
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-2">
                     <div class="name d-flex flex-row">
-                      <img src="/img/photo1.jpg" alt="Photo1">
+                      <img class="pointer" src="/img/photo1.jpg" alt="Photo1">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
                         <h6>Axel Thompson</h6>
                         <p class="text-muted">Diseñador</p>
@@ -96,7 +96,7 @@
                   <hr class="ml-3 mr-3 mb-2 text-muted">
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-2">
                     <div class="name d-flex flex-row">
-                      <img src="/img/photo2.jpg" alt="Photo2">
+                      <img class="pointer" src="/img/photo2.jpg" alt="Photo2">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
                         <h6>Wendy Miller</h6>
                         <p class="text-muted">Desarrolladora</p>
@@ -110,7 +110,7 @@
                   <hr class="ml-3 mr-3 mb-2 text-muted">
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-3">
                     <div class="name d-flex flex-row">
-                      <img src="/img/photo3.jpg" alt="Photo3">
+                      <img class="pointer" src="/img/photo3.jpg" alt="Photo3">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
                         <h6>Andrew Lincoln</h6>
                         <p class="text-muted">Escritor</p>
@@ -123,33 +123,42 @@
                   </div>
                 </div>
               </div>
-              <div class="d-flex flex-column flex-strech mt-3 recent col-4">
+              <div class="d-lg-flex flex-column flex-strech mt-3 recent col-lg-4 col-12 mb-3 mb-sm-0">
                 <div class="d-flex flex-row pt-3 pb-3 justify-content-between">
                   <h4 class="text-dark align-middle pl-3">Reciente</h4>
                   <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" href="#">Ver Todo</a>
                 </div>
-                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3">
+                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8">Victoria Evans ha comentado en "La Ciudadela"</p>
                   <p class="text-muted col-4">May 7</p>
                 </div>
                 <hr class="ml-3 mr-3 mb-2 mt-2 text-muted">
-                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3">
+                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8">Ethan Williams ha comenzado a seguirte</p>
                   <p class="text-muted col-4">May 5</p>
                 </div>
                 <hr class="ml-3 mr-3 mb-2 mt-2 text-muted">
-                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3">
+                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8">Nathan Fox le ha gustado "Inolvidable"</p>
                   <p class="text-muted col-4">May 1</p>
                 </div>
                 <hr class="ml-3 mr-3 mb-2 mt-2 text-muted">
-                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3">
+                <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8">Megan Walsh ha comenzado a seguirte</p>
                   <p class="text-muted col-4">Apr 29</p>
                 </div>
               </div>
             </div>
         </div>    
+
+        <div class="col-lg-3 col-md-5 col-3 d-lg-flex d-md-flex flex-column d-none min-vh-100 third-section">
+          <div class="d-flex name flex-row justify-content-between align-items-center mt-3 mr-3 mb-3">
+            <i class="far fa-bell p-2 pointer"></i>
+            <i class="far fa-envelope ml-3 p-2 pointer"></i>
+            <h6 class="ml-4 text-perfil pointer">Andrés Vargas</h6>
+            <img src="/img/photo4.jpg" class="pointer" alt="Photo4">
+          </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

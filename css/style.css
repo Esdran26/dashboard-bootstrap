@@ -3,7 +3,7 @@ body {
     background-color: #7da871;
 }
 h4, a, p {color: #F9F9F9;}
-h4, a, p, h6, hr, .col-4{margin: 0; padding: 0;}
+h4, a, p, h6, hr, .col-4, .col-12 {margin: 0; padding: 0;}
 .text-dark {font-weight: 600;}
 a {text-decoration: none;}
 a:hover {text-decoration: none; color: #F9F9F9;}
@@ -24,7 +24,6 @@ a:hover {text-decoration: none; color: #F9F9F9;}
     border-bottom-left-radius: 1.7rem; 
     background-color: #F9F9F9;
 }
-.input-group {max-width: 470px;}
 .fa-search {
     background-color: #f1f1f1; 
     z-index: 2; 
@@ -55,7 +54,6 @@ p {font-size: .9rem;}
     border-radius: 1rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
-
 .view {
     background-color: rgb(230, 237, 228);
     color: #7da871;
@@ -69,3 +67,10 @@ p {font-size: .9rem;}
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .text-recent {font-weight: normal;}
+.third-section {background-color: #F9F9F9;}
+.fa-bell, .fa-envelope {font-size: 1.2rem; border-radius: .7rem;}
+.fa-bell {color: #E9A763; background-color: rgb(252, 242, 232);}
+.fa-envelope {color: #7da871; background-color: rgb(235, 242, 233);}
+.text-perfil {transition: all .3s ease-in-out;}
+.text-perfil:hover {color: #E9A763;}
+.pointer {cursor: pointer;}
