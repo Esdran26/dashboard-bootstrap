@@ -37,21 +37,44 @@
         </div>
 
         <div class="col-md-7 col-12 pl-1 pr-1 min-vh-100 second-section">
-            <div class="input-group mt-3 ml-3 mb-3 mr-3 col-lg-7 col-7">
+
+            <div class="d-flex flex-sm-row flex-column-reverse justify-content-sm-between justify-content-end">
+
+              <div class="input-group mt-3 ml-0 ml-sm-3 mb-3 col-lg-7 col-sm-5 col-11 d-flex ">
+
                 <div class="input-group-prepend position-relative">
                   <i class="fas fa-search fa-lg-1x position-absolute" id="button-addon1"></i>
                 </div>
+
                 <input type="search" autofocus autocomplete="off" style="background-color: #f1f1f1; z-index: 1;
                 box-shadow: 0px 8px 15px #f1f1f1; border-radius: .7rem; outline: none; border: 1px solid #f1f1f1;" class="form-control pl-5" placeholder="Buscar por libros, personas ó articulos" aria-label="Example text with button addon" aria-describedby="button-addon1">
+
+              </div>
+
+              <div class="d-flex d-md-none name flex-row align-items-center justify-content-end mt-3 mr-3 mb-2 ">
+
+                <div class="d-flex flex-row">
+                  <i class="far fa-bell p-2 pointer"></i>
+                  <i class="far fa-envelope ml-3 p-2 pointer"></i>
+                </div>
+                
+                <div class="d-flex flex-row align-items-center">
+                  <h6 class="text-perfil ml-3 pointer text-dark">Andrés Vargas</h6>
+                  <img src="img/photo4.jpg" class="pointer ml-3 photo" alt="Photo4">
+                </div>
+
+              </div>
+
             </div>
-            <div class="d-flex flex-md-row flex-column justify-content-around mt-3 ml-3 mr-3 card-photo">
-              <div class="d-flex flex-column justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
-                <h4>Hola, Andrés! Tienes ideas sobre un nuevo libro?</h4>
+
+            <div class="d-flex flex-md-row flex-column justify-content-around  align-items-center align-items-sm-start mt-3 ml-3 mr-3 card-photo">
+              <div class="d-flex flex-column align-items-center align-items-sm-start justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
+                <h4 class="text-sm-left text-center">Hola, Andrés! Tienes ideas sobre un nuevo libro?</h4>
                 <p class="mt-2 mb-2">Vuelve tus libros tendencia mundial! <br>
                   Quieres empezar a escribir una vez más?</p>
                 <a class=" pt-2 pb-2 pl-4 pr-4 btn btn-dark button-idea" href="#">Crear Borrador <i class="fas fa-plus ml-3"></i></a>
               </div>
-              <img class="img-fluid col-lg-5 col-md-5 col-12" src="/img/photo.svg" alt="Book">
+              <img class="img-fluid col-lg-5 col-md-5 col-12" src="img/photo.svg" alt="Book">
             </div>
 
             <div class="d-flex flex-lg-row flex-column ml-3 mr-3">
@@ -81,7 +104,7 @@
                   </div>
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-2">
                     <div class="name d-flex flex-row">
-                      <img class="pointer" src="/img/photo1.jpg" alt="Photo1">
+                      <img class="pointer photo" src="img/photo1.jpg" alt="Photo1">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
                         <h6 class="text-dark">Axel Thompson</h6>
                         <p class="color-gray">Diseñador</p>
@@ -96,7 +119,7 @@
                   <hr class="ml-3 mr-3 mb-2 color-gray">
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-2">
                     <div class="name d-flex flex-row">
-                      <img class="pointer" src="/img/photo2.jpg" alt="Photo2">
+                      <img class="pointer photo" src="img/photo2.jpg" alt="Photo2">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
                         <h6 class="text-dark">Wendy Miller</h6>
                         <p class="color-gray">Desarrolladora</p>
@@ -110,7 +133,7 @@
                   <hr class="ml-3 mr-3 mb-2 color-gray">
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-3">
                     <div class="name d-flex flex-row">
-                      <img class="pointer" src="/img/photo3.jpg" alt="Photo3">
+                      <img class="pointer photo" src="img/photo3.jpg" alt="Photo3">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
                         <h6 class="text-dark">Andrew Lincoln</h6>
                         <p class="color-gray">Escritor</p>
@@ -123,7 +146,7 @@
                   </div>
                 </div>
               </div>
-              <div class="d-lg-flex flex-column flex-strech mt-3 recent col-lg-4 col-12 mb-3 mb-sm-0 mb-lg-3 mb-0">
+              <div class="d-lg-flex flex-column flex-strech mt-3 recent col-lg-4 col-12 mb-3">
                 <div class="d-flex flex-row pt-3 pb-3 justify-content-between">
                   <h4 class="text-dark align-middle pl-3">Reciente</h4>
                   <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" href="#">Ver Todo</a>
@@ -152,12 +175,12 @@
             <div class="d-none d-lg-flex flex-md-row flex-column justify-content-around mb-3 ml-3 mr-3 card-footer-andres">
               <div class="d-flex flex-column justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
                 <h4>Andrés, nos gusta tu contenido y queremos darte los siguientes tips: </h4>
-                <p class="mb-2">Lee los comentarios de tus lectores. <br>
-                  Elije el género que quieres para tu público. <br>
-                  Busca siempre a un editor de confianza!
+                <p class="mb-2"> 1. Lee los comentarios de tus lectores. <br>
+                  2. Elije el género que quieres para tu público. <br>
+                  3. Busca siempre a un editor de confianza!
                   </p>
               </div>
-              <img class="img-fluid col-lg-5 col-md-5 col-12" src="/img/photo7.svg" alt="Book">
+              <img class="img-fluid col-lg-5 col-md-5 col-12" src="img/photo7.svg" alt="Book">
             </div>
         </div>    
 
@@ -169,7 +192,7 @@
             </div>
             <div class="d-flex flex-row align-items-center">
               <h6 class="ml-3 text-perfil pointer text-dark">Andrés Vargas</h6>
-              <img src="/img/photo4.jpg" class="pointer ml-2" alt="Photo4">
+              <img src="img/photo4.jpg" class="pointer ml-2 photo" alt="Photo4">
             </div>
           </div>
           <div class="post h-100">
@@ -183,12 +206,12 @@
             </div>
             <div class="d-flex flex-column">
               <div class="card m-3">
-              <img src="/img/Cypress.jpg" class="card-img-top" alt="Cypress">
+              <img src="img/Cypress.jpg" class="card-img-top" alt="Cypress">
               <div class="card-body">
                 <h6 class="card-title text-dark">La Ciudadela</h6>
                 <p class="card-text color-gray">Descubre las maravillas escondidas en los bosque de Estados Unidos.</p>
                 <div class="name d-flex flex-row mt-3">
-                  <img class="pointer" src="/img/photo5.jpg" alt="Photo5">
+                  <img src="img/photo5.jpg" class="photo" alt="Photo5">
                   <div class="d-flex flex-column justify-content-center text-author ml-3">
                     <h6 class="text-dark">David Jones</h6>
                     <p class="color-gray">May 6, 2020</p>
@@ -197,12 +220,12 @@
               </div>
             </div>
             <div class="card m-3">
-              <img src="/img/Wallhaven.jpg" class="card-img-top" alt="...">
+              <img src="img/Wallhaven.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title text-dark">Space X</h6>
                 <p class="card-text color-gray">Elon Musk, un emprendedor con otra visión multimillonaria.</p>
                 <div class="name d-flex flex-row mt-3">
-                  <img class="pointer" src="/img/photo6.jpg" alt="Photo6">
+                  <img src="img/photo6.jpg" class="photo" alt="Photo6">
                   <div class="d-flex flex-column justify-content-center text-author ml-3">
                     <h6 class="text-dark">Lauren Murphy</h6>
                     <p class="color-gray">May 3, 2020</p>

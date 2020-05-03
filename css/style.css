@@ -3,7 +3,7 @@ body {
     background-color: #7da871;
 }
 h4, a, p {color: #F9F9F9;}
-h4, a, p, h6, hr, .col-4, .col-12 {margin: 0; padding: 0;}
+h4, a, p, h6, hr, .col-4, .col-12, .col-5 {margin: 0; padding: 0;}
 .text-dark {font-weight: 600;}
 a {text-decoration: none;}
 a:hover {text-decoration: none; color: #F9F9F9;}
@@ -12,6 +12,7 @@ a:hover {text-decoration: none; color: #F9F9F9;}
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: .7rem;
     cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .color-gray {color: #8c8c8c;}
 .color-gray:hover {color: #8c8c8c;}
@@ -20,6 +21,7 @@ a:hover {text-decoration: none; color: #F9F9F9;}
 .create {
     background-color: rgba(255, 255, 255, 0.15); 
     border-radius: .7rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .second-section {
     border-top-left-radius: 1.7rem;
@@ -44,7 +46,9 @@ a:hover {text-decoration: none; color: #F9F9F9;}
 }
 .card-footer-andres {
     background-color: #343a40;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+.photo {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
 p {font-size: .9rem;}
 .button-idea {width: fit-content; border-radius: .7rem;}
 .button-footer-idea {
@@ -80,6 +84,7 @@ p {font-size: .9rem;}
     border-radius: 1rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+img {cursor: pointer;}
 .text-recent {font-weight: normal;}
 .third-section {background-color: #F9F9F9;}
 .fa-bell, .fa-envelope {font-size: 1.2rem; border-radius: .7rem;}
