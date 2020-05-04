@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="es" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; ISO-8859-1">
+    <META NAME="DC.Language" SCHEME="RFC1766" CONTENT="Spanish">
+    <META NAME="AUTHOR" CONTENT="Andrés Felipe Vargas Gómez">
+    <META NAME="REPLY-TO" CONTENT="vargasandres2627@gmail.com">
+    <LINK REV="made" href="mailto:vargasandres2627@gmail.com">
+    <META NAME="DESCRIPTION" CONTENT="Dashboard diseñado y construido con bootstrap">
+    <META NAME="KEYWORDS" CONTENT="Diseño,Front-End,Desarrollo Web,Software">
+    <META NAME="Resource-type" CONTENT="Document">
+    <META NAME="Revisit-after" CONTENT="3 days">
+    <META NAME="robots" content="ALL">
+      <meta name="theme-color" content="#E9A763">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/de6467cf36.js"></script>
     <link rel="icon" type="image/png" href="img/favicon.png">
@@ -17,42 +28,42 @@
             <div class="d-flex justify-content-center">
                 <i class="fas fa-book fa-3x p-3"></i>
             </div>
+
             <ul class="nav flex-column d-flex align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#"><i class="fas fa-angle-right"></i> Inicio</a>
+                  <a class="nav-link active" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap"><i class="fas fa-angle-right"></i> Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a  class="nav-link" href="#">Libros</a>
+                  <a  class="nav-link" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Libros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Editores</a>
+                  <a class="nav-link" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Editores</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Lectores</a>
+                  <a class="nav-link" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Lectores</a>
                 </li>
             </ul>
-            <div class="d-flex justify-content-center">
-                <a class=" pt-2 pb-2 pl-4 pr-4 create" href="#">Crear <i class="fas fa-plus ml-3"></i></a>
+
+            <div class="d-flex justify-content-center button-create">
+                <a class=" pt-2 pb-2 pl-4 pr-4 create" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Crear <i class="fas fa-plus ml-3"></i></a>
             </div>
+
         </div>
 
+
+        
         <div class="col-md-7 col-12 pl-1 pr-1 min-vh-100 second-section">
-
             <div class="d-flex flex-sm-row flex-column-reverse justify-content-sm-between justify-content-end">
-
-              <div class="input-group mt-3 ml-0 ml-sm-3 mb-3 col-lg-7 col-sm-5 col-11 d-flex ">
-
+              <div class="input-group mt-3 ml-0 ml-sm-3 mb-3 col-lg-7 col-md-7 col-sm-5 col-11 d-flex">
                 <div class="input-group-prepend position-relative">
                   <i class="fas fa-search fa-lg-1x position-absolute color-gray" id="button-addon1"></i>
                 </div>
 
-                <input type="search" autofocus autocomplete="off" style="background-color: #F2F2F2; z-index: 1;
+                <input type="text" autofocus autocomplete="off" style="background-color: #F2F2F2; z-index: 1;
                 box-shadow: 0px 8px 15px #F2F2F2; border-radius: .7rem; outline: none; border: 1px solid #F2F2F2;" class="form-control pl-5" placeholder="Buscar por libros, personas ó articulos" aria-label="Example text with button addon" aria-describedby="button-addon1">
-
               </div>
 
               <div class="d-flex d-md-none name flex-row align-items-center justify-content-end mt-3 mr-3 mb-2 ">
-
                 <div class="d-flex flex-row">
                   <i class="far fa-bell p-2 pointer"></i>
                   <i class="far fa-envelope ml-3 p-2 pointer"></i>
@@ -67,15 +78,17 @@
 
             </div>
 
-            <div class="d-flex flex-md-row flex-column justify-content-around  align-items-center align-items-sm-start mt-3 ml-3 mr-3 card-photo">
-              <div class="d-flex flex-column align-items-center align-items-sm-start justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
-                <h4 class="text-sm-left text-center">Hola, Andrés! Tienes ideas sobre un nuevo libro?</h4>
+            <div class="d-flex flex-md-row flex-column justify-content-around  align-items-center align-items-md-start mt-3 ml-3 mr-3 card-photo">
+              <div class="d-flex flex-column align-items-center align-items-md-start justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
+                <h4 class="text-md-left text-center">Hola, Andrés! Tienes ideas sobre un nuevo libro?</h4>
                 <p class="mt-2 mb-2">Vuelve tus libros tendencia mundial! <br>
                   Quieres empezar a escribir una vez más?</p>
-                <a class=" pt-2 pb-2 pl-4 pr-4 btn btn-dark button-idea" href="#">Crear Borrador <i class="fas fa-plus ml-3"></i></a>
+                <a class=" pt-2 pb-2 pl-4 pr-4 btn btn-dark button-idea" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Crear Borrador <i class="fas fa-plus ml-3"></i></a>
               </div>
+
               <img class="img-fluid col-lg-5 col-md-5 col-12" src="img/photo.svg" alt="Book">
             </div>
+
 
             <div class="d-flex flex-lg-row flex-column ml-3 mr-3">
               <div class="d-flex flex-column justify-content-around mt-3 col-lg-8 col-12 reader">
@@ -84,38 +97,48 @@
                       <p class="color-gray mb-2">Librería</p>
                       <h4 class="text-dark">124</h4>
                     </div>
+
                     <div class="d-flex flex-column p-3 stats mb-3">
                       <p class="color-gray mb-2">Me Gusta</p>
                       <h4 class="text-dark">155 k</h4>
                     </div>
+
                     <div class="d-flex flex-column p-3 stats mb-3">
                       <p class="color-gray mb-2">Lectores</p>
                       <h4 class="text-dark">8 k</h4>
                     </div>
+
                     <div class="d-flex flex-column p-3 stats mb-3">
                       <p class="color-gray mb-2">Opiniones</p>
                       <h4 class="text-dark">163 k</h4>
                     </div>
+
                 </div>
+
                 <div class="d-flex flex-column author mr-lg-4 mr-0 mb-lg-3 mb-0">
                   <div class="d-flex flex-row pt-3 pb-3 justify-content-between">
                     <h4 class="text-dark align-middle pl-3">Autores</h4>
-                    <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" href="#">Ver Todo</a>
+                    <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Ver Todo</a>
                   </div>
+
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-2">
                     <div class="name d-flex flex-row">
                       <img class="pointer photo" src="img/photo1.jpg" alt="Photo1">
                       <div class="d-flex flex-column justify-content-center text-author ml-3">
-                        <h6 class="text-dark">Axel Thompson</h6>
+                        <h6 class="text-dark">Axel Smith</h6>
                         <p class="color-gray">Diseñador</p>
                       </div>
+
                     </div>
+
                     <div class="d-none d-sm-flex flex-row text-author">
                       <p class="color-gray">Lectores</p>
                       <h4 class="text-dark ml-3">143 k</h4>
                     </div>
+
                     
                   </div>
+
                   <hr class="ml-3 mr-3 mb-2 color-gray">
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-2">
                     <div class="name d-flex flex-row">
@@ -124,12 +147,16 @@
                         <h6 class="text-dark">Wendy Miller</h6>
                         <p class="color-gray">Desarrolladora</p>
                       </div>
+
                     </div>
+
                     <div class="d-none d-sm-flex flex-row text-author">
                       <p class="color-gray">Lectores</p>
                       <h4 class="text-dark ml-3">136 k</h4>
                     </div>
+
                   </div>
+
                   <hr class="ml-3 mr-3 mb-2 color-gray">
                   <div class="d-flex flex-row align-items-center justify-content-between ml-3 mr-3 mb-3">
                     <div class="name d-flex flex-row">
@@ -138,40 +165,53 @@
                         <h6 class="text-dark">Andrew Lincoln</h6>
                         <p class="color-gray">Escritor</p>
                       </div>
+
                     </div>
+
                     <div class="d-none d-sm-flex flex-row text-author">
                       <p class="color-gray">Lectores</p>
                       <h4 class="text-dark ml-3">128 k</h4>
                     </div>
+
                   </div>
+
                 </div>
+
               </div>
+
               <div class="d-lg-flex flex-column flex-strech mt-3 recent col-lg-4 col-12 mb-3">
                 <div class="d-flex flex-row pt-3 pb-3 justify-content-between">
                   <h4 class="text-dark align-middle pl-3">Reciente</h4>
-                  <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" href="#">Ver Todo</a>
+                  <a class="view align-middle mr-3 p-2 pl-3 pr-3 rounded-pill" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Ver Todo</a>
                 </div>
+
                 <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8"><b>Victoria Evans</b> ha comentado en "La Ciudadela"</p>
                   <p class="color-gray col-4">May 7</p>
                 </div>
+
                 <hr class="ml-3 mr-3 mb-2 mt-2 color-gray">
                 <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8"><b>Ethan Williams</b> ha comenzado a seguirte</p>
                   <p class="color-gray col-4">May 5</p>
                 </div>
+
                 <hr class="ml-3 mr-3 mb-2 mt-2 color-gray">
                 <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8"><b>Nathan Fox</b> le ha gustado "Inolvidable"</p>
                   <p class="color-gray col-4">May 1</p>
                 </div>
+
                 <hr class="ml-3 mr-3 mb-2 mt-2 color-gray">
                 <div class="d-flex flex-row justify-content-between align-items-center ml-3 mr-3 pt-lg-1 pb-lg-1 pt-2 pb-2">
                   <p class="text-dark text-recent mr-3 col-8"><b>Megan Walsh</b> ha comenzado a seguirte</p>
                   <p class="color-gray col-4">Apr 29</p>
                 </div>
+
               </div>
+
             </div>
+
             <div class="d-none d-lg-flex flex-md-row flex-column justify-content-around mb-3 ml-3 mr-3 card-footer-andres">
               <div class="d-flex flex-column justify-content-around col-lg-7 col-md-7 col-12 p-4 ">
                 <h4>Andrés, nos gusta tu contenido y queremos darte los siguientes tips: </h4>
@@ -180,9 +220,12 @@
                   3. Busca siempre a un editor de confianza!
                   </p>
               </div>
+
               <img class="img-fluid col-lg-5 col-md-5 col-12" src="img/photo7.svg" alt="Book">
             </div>
-        </div>    
+
+        </div>
+
 
         <div class="col-lg-3 col-md-5 col-3 d-lg-flex d-md-flex flex-column d-none min-vh-100 third-section">
           <div class="d-flex name flex-row justify-content-between align-items-center mt-3 mb-2 mr-3">
@@ -190,20 +233,25 @@
               <i class="far fa-bell p-2 pointer"></i>
               <i class="far fa-envelope ml-3 p-2 pointer"></i>
             </div>
+
             <div class="d-flex flex-row align-items-center">
               <h6 class="ml-3 text-perfil pointer text-dark">Andrés Vargas</h6>
               <img src="img/photo4.jpg" class="pointer ml-2 photo" alt="Photo4">
             </div>
+
           </div>
+
           <div class="post h-100">
             <div class="d-flex flex-row pt-3 pb-3 justify-content-between">
               <h4 class="text-dark pl-3">Lo último</h4>
-              <a class="view mr-3 p-2 pl-3 pr-3 rounded-pill" href="#">Ver Todo</a>
+              <a class="view mr-3 p-2 pl-3 pr-3 rounded-pill" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Ver Todo</a>
             </div>
+
             <div class="d-flex flex-row justify-content-start">
-              <a class="post-recent ml-3 text-dark" href="#"><i class="fas fa-angle-right"></i> Reciente</a>
-              <a class="post-recent ml-3 color-gray" href="#">Popular</a>
+              <a class="post-recent ml-3 text-dark" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap"><i class="fas fa-angle-right"></i> Reciente</a>
+              <a class="post-recent ml-3 color-gray" target="_blank" href="https://github.com/Esdran26/dashboard-bootstrap">Popular</a>
             </div>
+
             <div class="d-flex flex-column">
               <div class="card m-3">
               <img src="img/Cypress.jpg" class="card-img-top" alt="Cypress">
@@ -216,9 +264,13 @@
                     <h6 class="text-dark">David Jones</h6>
                     <p class="color-gray">May 6, 2020</p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             <div class="card m-3">
               <img src="img/Wallhaven.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -230,13 +282,22 @@
                     <h6 class="text-dark">Lauren Murphy</h6>
                     <p class="color-gray">May 3, 2020</p>
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
             </div>
+
           </div>
+
         </div>
+
     </div>
+
     
+    <script src="js/app.js" defer></script>
 </body>
 </html>
