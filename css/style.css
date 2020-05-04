@@ -2,11 +2,13 @@ body {
     font-family: 'Red Hat Display', sans-serif; 
     background-color: #7da871;
 }
+
 h4, a, p {color: #F9F9F9;}
 h4, a, p, h6, hr, .col-4, .col-12, .col-5 {margin: 0; padding: 0;}
 .text-dark {font-weight: 600;}
 a {text-decoration: none;}
 a:hover {text-decoration: none; color: #F9F9F9;}
+
 .fa-book {
     color: #F9F9F9; 
     background-color: rgba(255, 255, 255, 0.15);
@@ -14,10 +16,12 @@ a:hover {text-decoration: none; color: #F9F9F9;}
     cursor: pointer;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
 .color-gray {color: #8c8c8c;}
 .color-gray:hover {color: #8c8c8c;}
 .nav-link {color: rgba(255, 255, 255, 0.7);}
 .active {color: #F9F9F9;}
+
 .create {
     background-color: rgba(255, 255, 255, 0.15); 
     border-radius: .7rem;
@@ -37,8 +41,10 @@ a:hover {text-decoration: none; color: #F9F9F9;}
     box-shadow: 0px 8px 15px #F2F2F2; 
     border: 1px solid #F2F2F2;
 }
+
 .fa-times {left: -25px; cursor: pointer;}
 .col-7, .col-8, .col-3 {padding: 0;}
+
 .card-photo, .card-footer-andres {
     background-color: #E9A763;
     border-radius: 1rem;
@@ -48,17 +54,21 @@ a:hover {text-decoration: none; color: #F9F9F9;}
     background-color: #343a40;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
 .photo {box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);}
 p {font-size: .9rem;}
 .button-idea {width: fit-content; border-radius: .7rem;}
+
 .button-footer-idea {
     background-color: #E9A763;
     color: #25262B;
     width: fit-content;
     border-radius: .7rem;
 }
+
 .form-control::placeholder {color: #8c8c8c}
 .img-fluid {width: 270px;}
+
 .stats {
     border: 1px solid rgb(185, 186, 187);
     border-radius: 1rem; 
@@ -66,7 +76,9 @@ p {font-size: .9rem;}
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     transition: all .3s ease-in-out;
 }
+
 .stats:hover {transform: translateY(-5px);}
+
 .author {
     background-color: #F2F2F2; 
     border-radius: 1rem;
@@ -77,13 +89,16 @@ p {font-size: .9rem;}
     color: #7da871;
     font-size: .7rem;
 }
+
 .view:hover {color: #7da871;}
 .name img {max-width: 45px; border-radius: .7rem;}
+
 .recent {
     background-color: #F2F2F2; 
     border-radius: 1rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
 img {cursor: pointer;}
 .text-recent {font-weight: normal;}
 .third-section {background-color: #F9F9F9;}
@@ -94,6 +109,7 @@ img {cursor: pointer;}
 .text-perfil:hover {color: #E9A763;}
 .button-create:hover {transform: translateY(-5px);}
 .pointer {cursor: pointer;}
+
 .post {
     background-color: #F2F2F2;
     border-top-left-radius: 1.7rem;
@@ -101,8 +117,10 @@ img {cursor: pointer;}
     border-bottom-left-radius: 1.7rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
 .post-recent {padding: 0; font-weight: normal;}
 .card-img-top {border-radius: 1rem;}
+
 .card {
     border-radius: 1.7rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
